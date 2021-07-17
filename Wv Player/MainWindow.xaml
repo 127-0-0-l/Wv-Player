@@ -9,72 +9,72 @@
     <Grid x:Name="MainGrid" Height="510" Width="400" Loaded="MainGrid_Loaded" MouseLeftButtonDown="MainGrid_MouseLeftButtonDown">
         <Rectangle x:Name="rctVisualizerNext" HorizontalAlignment="Left" Height="120" Margin="300,40,0,0" VerticalAlignment="Top" Width="20" MouseDown="rctVisualizerNext_MouseDown" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="visualizerNext.png"/>
+                <ImageBrush ImageSource="Resources/visualizerNext.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle x:Name="rctClose" HorizontalAlignment="Left" Height="20" Margin="370,10,0,0" VerticalAlignment="Top" Width="20" MouseDown="rctClose_MouseDown" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="close.png"/>
+                <ImageBrush ImageSource="Resources/close.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle x:Name="rctMinimize" HorizontalAlignment="Left" Height="20" Margin="340,10,0,0" VerticalAlignment="Top" Width="20" MouseDown="rctMinimize_MouseDown" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="minimiseClear.png"/>
+                <ImageBrush ImageSource="Resources/minimiseClear.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle x:Name="rctOpen" HorizontalAlignment="Left" Height="20" Margin="20,230,0,0" VerticalAlignment="Top" Width="20" MouseDown="rctOpen_MouseDown" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="open.png"/>
+                <ImageBrush ImageSource="Resources/open.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle x:Name="rctClear" HorizontalAlignment="Left" Height="20" Margin="50,230,0,0" VerticalAlignment="Top" Width="20" MouseDown="rctClear_MouseDown" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="minimiseClear.png"/>
+                <ImageBrush ImageSource="Resources/minimiseClear.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle x:Name="rctBack" HorizontalAlignment="Left" Height="20" Margin="160,230,0,0" VerticalAlignment="Top" Width="20" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="back.png"/>
+                <ImageBrush ImageSource="Resources/back.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle x:Name="rctThemeBack" HorizontalAlignment="Left" Height="40" Margin="20,80,0,0" VerticalAlignment="Top" Width="40" MouseDown="rctThemeBack_MouseDown" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="themeBack.png"/>
+                <ImageBrush ImageSource="Resources/themeBack.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle x:Name="rctNext" HorizontalAlignment="Left" Height="20" Margin="220,230,0,0" VerticalAlignment="Top" Width="20" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="next.png"/>
+                <ImageBrush ImageSource="Resources/next.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle x:Name="rctStartStop" HorizontalAlignment="Left" Height="20" Margin="190,230,0,0" VerticalAlignment="Top" Width="20" MouseDown="rctStartStop_MouseDown" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="start.png"/>
+                <ImageBrush ImageSource="Resources/start.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle x:Name="rctThemeNext" HorizontalAlignment="Left" Height="40" Margin="340,80,0,0" VerticalAlignment="Top" Width="40" MouseDown="rctThemeNext_MouseDown" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="themeNext.png"/>
+                <ImageBrush ImageSource="Resources/themeNext.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle x:Name="rctMix" HorizontalAlignment="Left" Height="20" Margin="360,230,0,0" VerticalAlignment="Top" Width="20" MouseDown="rctMix_MouseDown" Tag="false" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="mix.png"/>
+                <ImageBrush ImageSource="Resources/mix.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle x:Name="rctVisualizerBack" HorizontalAlignment="Left" Height="120" Margin="80,40,0,0" VerticalAlignment="Top" Width="20" MouseDown="rctVisualizerBack_MouseDown" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="visualizerBack.png"/>
+                <ImageBrush ImageSource="Resources/visualizerBack.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle x:Name="rctRepeat" HorizontalAlignment="Left" Height="20" Margin="330,230,0,0" VerticalAlignment="Top" Width="20" MouseDown="rctRepeat_MouseDown" Tag="false" Fill="{Binding BorderBrush, ElementName=pbTime}">
             <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="repeat.png"/>
+                <ImageBrush ImageSource="Resources/repeat.png"/>
             </Rectangle.OpacityMask>
         </Rectangle>
         <Rectangle HorizontalAlignment="Left" Height="40" Margin="5,0,0,0" VerticalAlignment="Top" Width="40" IsEnabled="False" Tag="0">
             <Rectangle.Fill>
-                <ImageBrush ImageSource="miniLogo.png" Stretch="Uniform"/>
+                <ImageBrush ImageSource="Resources/miniLogo.png" Stretch="Uniform"/>
             </Rectangle.Fill>
         </Rectangle>
         <Label x:Name="lblProgName" Content="Wv Player" HorizontalAlignment="Left" Margin="45,5,0,0" VerticalAlignment="Top" FontFamily="JetBrains Mono" FontSize="18"/>
