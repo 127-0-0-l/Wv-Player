@@ -94,5 +94,27 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\back.png" />
+    <Resource Include="Resources\BlueYellow.png" />
+    <Resource Include="Resources\close.png" />
+    <Resource Include="Resources\DarkBlue.png" />
+    <Resource Include="Resources\DarkRed.png" />
+    <Resource Include="Resources\DarkYellow.png" />
+    <Resource Include="Resources\LightBlue.png" />
+    <Resource Include="Resources\logo.png" />
+    <Resource Include="Resources\miniLogo.png" />
+    <Resource Include="Resources\minimiseClear.png" />
+    <Resource Include="Resources\mix.png" />
+    <Resource Include="Resources\next.png" />
+    <Resource Include="Resources\open.png" />
+    <Resource Include="Resources\repeat.png" />
+    <Resource Include="Resources\start.png" />
+    <Resource Include="Resources\stop.png" />
+    <Resource Include="Resources\themeBack.png" />
+    <Resource Include="Resources\themeNext.png" />
+    <Resource Include="Resources\visualizerBack.png" />
+    <Resource Include="Resources\visualizerNext.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
